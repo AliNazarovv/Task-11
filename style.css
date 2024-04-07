@@ -1,130 +1,7 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    background-color: #01616b;
-    height: 9vh;
-    width: 100%;
-}
-.navbar ul{
-    float: right;
-    margin-right: 20px;
-    
-}
-.logo{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 13px;
-
-}
-.logo i{
-    color:#11abb2 ;
-    margin-left: 5px;
-}
-.logo a{
-    text-decoration: none;
-    color: #0a9199;
-    font-size: 20px;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin:0 8px;
-    line-height: 65px;
-    
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: #0d9fa7;
-}
-
-.navbar ul li a:hover{
-    color:white;
-    border-radius: 2px;
-    background-color: aqua;
-    transition: 0.7s;
-}
-hr{
-    margin-left: 14px;
-    border: 2px solid;
-    margin-top: 30px;
-    margin-left: 25px;
-
-}
-.side{
-    background-color:#ffd0ad ;
-    display: inline-block;
-
-    height: 91vh;
-    width: 200px;
-}
-.side p{
-    margin-left: 20px;
-    margin-top: 6px;
-    font-size: 19px;
-    
-}
-
-
-.sidebar{
-    background-color: #ffd0ad;
-    height: 91vh;
-    width: 200px;
-    display: inline-block;
-}
-.dep {
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 12px;
-}
-.brand{
-    margin-top:23px;
-    margin-left: 13px;
-}
-.brand span{
-    font-size: 18px;
-}
-.li{
-    margin-left: 21px;
-    margin-top: 8px;
-    font-size: 18px;
-}
-.li span{
-    display: inline-block;
-    padding: 4px;
-}
-.li input{
-    margin-left: 7px;
-    
-}
-.brand{
-    font-size: large;
-   
-
-}
-.scli{
-    margin-left: 21px;
-    margin-top: 8px;
-    font-size: 18px;
-}
-.scli span{
-    display: inline-block;
-    padding: 4px;
-}
-.scli input{
-    margin-left: 7px;
-    
-}
-
-main{
-    background: #11abb2;
-    padding: 3em 0 3em 0;
-    display: flex;
-    margin-left: 27%;
-    margin-top: 200px;
-    display: flex;
-    
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 } */
 *{
     margin: 0;
@@ -135,6 +12,20 @@ header{
     height: 65px;
     width: 100%;
     display: inline-block;
+
+    
+}
+ .header2  {
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.header2:hover{
+    color: #098c94;
     
 }
 
@@ -144,13 +35,15 @@ aside{
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
+    /* width: 100%; */
+    height: calc(110vh + 60px);
     
 }
 
 main{
     background:#fce4a0 ;
     width: 80%;
-    height: 100%;
+    height: 112vh;
     padding: 22px;
 }
 .main{
@@ -199,7 +92,7 @@ main{
 }
 
 
-.navabr ul li a.active,
+.navabr ul li a .active,
 .navbar ul li a:hover{
     background: #aefbfb;
     border-radius: 5px;
@@ -262,14 +155,14 @@ hr{
 .content{
    box-sizing: border-box;
    width: 100%;
-   height: auto;
+   height: 100vh;
    display: flex;
    flex-wrap: wrap;
    
 }
 .frsblock{
    width: 230px;
-   height: 250px;
+   height: 290px;
    background: #c9b16e;
    margin-top: 60px;
    margin-left: 20px;
@@ -277,7 +170,204 @@ hr{
 .frsblock {
 text-align: center;
 font-size: 17px;
-cursor: pointer;r
+
+}
+.content .words{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.frsblock button {
+    /* background-color: #e24e2d;
+    color: white;
+    margin-top: 10px;
+    margin-top: 59px;
+    margin-right: 10px;
+    float: right;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+    
+    
+    
+    
+}
+.scblock button {
+    /* background-color: #e24e2d;
+    color: white;
+    margin-top: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+    
+    
+}
+.thblock button {
+    /* background-color: #e24e2d;
+    color: white;
+    margin-right: 10px;
+    float: right;
+    margin-top: 35px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+    
+    
+}
+
+.forblock button {
+    /* background-color: #e24e2d;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 15px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+    
+    
+}
+.fivblock button {
+    /* background-color: #e24e2d;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    color: white;
+    margin-top: 9px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+    
+    
+}
+.sixblock button{
+    /* background-color: #e24e2d;
+    float: right;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+}
+.sevblock button{
+    /* background-color: #e24e2d;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 15px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+}
+.eightblock button{
+    /* background-color: #e24e2d;
+    color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 15px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh; */
+    background-color: #1342ff;
+    border-radius: 5px;
+    color: #e1e1e1;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 600;
+    padding: 3% 5%;
+    cursor: pointer;
+    transition: all .1s;
+   
+}
+.s button {
+    background-color: #e24e2d;
+    color: white;
+    margin-top: 15px;
+    border-style: none;
+    font-weight: 700;
+    height: 25px;
+    width: 17vh;
+    
+    
 }
 
 .heading{
@@ -289,7 +379,7 @@ cursor: pointer;r
 
 .scblock{
     width: 230px;
-   height: 250px;
+   height: 290px;
    background: #c9b16e;
    margin-top: 60px;
    margin-left: 20px;
@@ -297,12 +387,13 @@ cursor: pointer;r
    font-size: 17px;
    
 }
+
 .words{
     margin-top: 10px;
 }
 .thblock{
     width: 230px;
-   height: 250px;
+   height: 290px;
    background: #c9b16e;
    margin-top: 60px;
    margin-left: 20px;
@@ -312,7 +403,7 @@ cursor: pointer;r
 }
 .forblock{
     width: 230px;
-    height: 250px;
+    height: 290px;
     background: #c9b16e;
     margin-top: 60px;
     margin-left: 20px;
@@ -320,9 +411,10 @@ cursor: pointer;r
     font-size: 17px;
 
 }
+
 .fivblock{
     width: 230px;
-    height: 250px;
+    height: 290px;
     background: #c9b16e;
     margin-top: 60px;
     margin-left: 20px;
@@ -330,3 +422,31 @@ cursor: pointer;r
     font-size: 17px;
    
 }
+
+.sixblock{
+    width: 230px;
+   height: 290px;
+   background: #c9b16e;
+   margin-top: 60px;
+   margin-left: 20px;
+   text-align: center;
+
+}
+.sevblock{
+
+    width: 230px;
+   height: 290px;
+   background: #c9b16e;
+   margin-top: 60px;
+   margin-left: 20px;
+   text-align: center;
+}
+.eightblock{
+    width: 230px;
+   height: 290px;
+   background: #c9b16e;
+   margin-top: 60px;
+   margin-left: 20px;
+   text-align: center;
+}
+
